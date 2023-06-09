@@ -1,0 +1,16 @@
+body { color: #fff; font-family: Helvetica; background-color: #000; background-image: url(../../files/background.jpg); background-size: 100% auto; background-repeat: no-repeat; padding: 0; margin: 0; }
+h1 { font-size: 3em; margin: -10px 0; }
+a { color: #fff; }
+
+#main { height: 100%; text-align: center; }
+#avatar { height: 180px; border-radius: 100%; border: 3px solid #5bc; margin-bottom: 30px; }
+
+.content { padding-top: 100px; padding-bottom: 40px; }
+.content ul { padding: 0; list-style: none; }
+.content li { display: inline-block; width: 64px; height: 64px; padding: 10px; }
+
+@media ( width: 640px) {
+  #avatar { height: 20vw; }
+  h1 { font-size: 8vw; }
+  h3 { font-size: 4vw; }
+}
